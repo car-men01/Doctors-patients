@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ui version="4.0">
+	<class>DoctorspatientsClass</class>
+	<widget class="QMainWindow" name="DoctorspatientsClass">
+		<property name="geometry">
+			<rect>
+				<x>0</x>
+				<y>0</y>
+				<width>485</width>
+				<height>483</height>
+			</rect>
+		</property>
+		<property name="windowTitle">
+			<string>ExamApp</string>
+		</property>
+		<widget class="QWidget" name="centralWidget">
+			<layout class="QVBoxLayout" name="verticalLayout_3">
+				<item>
+					<widget class="QLabel" name="label">
+						<property name="text">
+							<string>Patients:</string>
+						</property>
+					</widget>
+				</item>
+				<item>
+					<widget class="QListWidget" name="patientsListWidget"/>
+				</item>
+				<item>
+					<layout class="QHBoxLayout" name="horizontalLayout_10">
+						<item>
+							<layout class="QVBoxLayout" name="verticalLayout">
+								<item>
+									<layout class="QHBoxLayout" name="horizontalLayout_6">
+										<item>
+											<widget class="QCheckBox" name="currentPatientsCheckBox">
+												<property name="text">
+													<string>Show current patients</string>
+												</property>
+											</widget>
+										</item>
+										<item>
+											<widget class="QPushButton" name="addPushButton">
+												<property name="text">
+													<string>Add Patient</string>
+												</property>
+											</widget>
+										</item>
+									</layout>
+								</item>
+								<item>
+									<layout class="QHBoxLayout" name="horizontalLayout">
+										<item>
+											<widget class="QLabel" name="label_2">
+												<property name="text">
+													<string>Name:</string>
+												</property>
+											</widget>
+										</item>
+										<item>
+											<widget class="QLineEdit" name="nameLineEdit"/>
+										</item>
+									</layout>
+								</item>
+								<item>
+									<layout class="QHBoxLayout" name="horizontalLayout_2">
+										<item>
+											<widget class="QLabel" name="label_3">
+												<property name="text">
+													<string>Diagnosis:</string>
+												</property>
+											</widget>
+										</item>
+										<item>
+											<widget class="QLineEdit" name="diagnosisLineEdit"/>
+										</item>
+									</layout>
+								</item>
+								<item>
+									<layout class="QHBoxLayout" name="horizontalLayout_3">
+										<item>
+											<widget class="QLabel" name="label_4">
+												<property name="text">
+													<string>Specialisation:</string>
+												</property>
+											</widget>
+										</item>
+										<item>
+											<widget class="QLineEdit" name="specialisationLineEdit"/>
+										</item>
+									</layout>
+								</item>
+								<item>
+									<layout class="QHBoxLayout" name="horizontalLayout_4">
+										<item>
+											<widget class="QLabel" name="label_5">
+												<property name="text">
+													<string>Current Doctor:</string>
+												</property>
+											</widget>
+										</item>
+										<item>
+											<widget class="QLineEdit" name="currentDoctorLineEdit"/>
+										</item>
+									</layout>
+								</item>
+								<item>
+									<layout class="QHBoxLayout" name="horizontalLayout_5">
+										<item>
+											<widget class="QLabel" name="label_6">
+												<property name="text">
+													<string>Admission date:</string>
+												</property>
+											</widget>
+										</item>
+										<item>
+											<widget class="QLineEdit" name="admissionDateLineEdit"/>
+										</item>
+									</layout>
+								</item>
+							</layout>
+						</item>
+						<item>
+							<layout class="QVBoxLayout" name="verticalLayout_2">
+								<item>
+									<widget class="QPushButton" name="updatePushButton">
+										<property name="text">
+											<string>Update patient</string>
+										</property>
+									</widget>
+								</item>
+								<item>
+									<layout class="QHBoxLayout" name="horizontalLayout_7">
+										<item>
+											<widget class="QLabel" name="label_7">
+												<property name="text">
+													<string>Patient name:</string>
+												</property>
+											</widget>
+										</item>
+										<item>
+											<widget class="QLineEdit" name="updateNameLineEdit"/>
+										</item>
+									</layout>
+								</item>
+								<item>
+									<layout class="QHBoxLayout" name="horizontalLayout_8">
+										<item>
+											<widget class="QLabel" name="label_8">
+												<property name="text">
+													<string>New diagnosis:</string>
+												</property>
+											</widget>
+										</item>
+										<item>
+											<widget class="QLineEdit" name="updateDiagnosisLineEdit"/>
+										</item>
+									</layout>
+								</item>
+								<item>
+									<layout class="QHBoxLayout" name="horizontalLayout_9">
+										<item>
+											<widget class="QLabel" name="label_9">
+												<property name="text">
+													<string>New specialisation:</string>
+												</property>
+											</widget>
+										</item>
+										<item>
+											<widget class="QLineEdit" name="updateSpecialisationLineEdit"/>
+										</item>
+									</layout>
+								</item>
+							</layout>
+						</item>
+					</layout>
+				</item>
+			</layout>
+		</widget>
+		<widget class="QMenuBar" name="menuBar">
+			<property name="geometry">
+				<rect>
+					<x>0</x>
+					<y>0</y>
+					<width>485</width>
+					<height>21</height>
+				</rect>
+			</property>
+		</widget>
+		<widget class="QToolBar" name="mainToolBar">
+			<attribute name="toolBarArea">
+				<enum>TopToolBarArea</enum>
+			</attribute>
+			<attribute name="toolBarBreak">
+				<bool>false</bool>
+			</attribute>
+		</widget>
+		<widget class="QStatusBar" name="statusBar"/>
+	</widget>
+	<layoutdefault spacing="6" margin="11"/>
+	<resources>
+		<include location="ExamApp.qrc"/>
+	</resources>
+	<connections/>
+</ui>

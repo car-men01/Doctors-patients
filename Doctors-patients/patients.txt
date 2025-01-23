@@ -1,0 +1,13 @@
+Marcela,stomacache,pediatrist,Mike,2023-10-23
+Laura,psychologist,psychologist,Mike,2024-12-03
+Gabriela,emotional issues,psychologist,Maria,2024-06-10
+Matei,dizzyness,neurologist,George,2023-09-08
+Andrei,swelling,oncologist,Lucy,2024-07-30
+Paul,ceva,neurologist,,2024-11-13
+Mihai,ceva,oncologist,,2023-02-02
+Costi,nausea,neurologist,Andreea,2024-01-01
+Nume,aaaa,psychologist,Maria,2024-11-01
+Nume2,,,,2024-11-01
+Nume2,,,,2024-11-01
+Nume2,,,,2024-11-01
+Nume2,undiagnosed,,,2024-11-01
