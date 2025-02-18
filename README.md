@@ -11,7 +11,7 @@ The GUI is made using the QT library in QT designer. On startup, the application
 The Observer design pattern in this application ensures that whenever a patient is updated, all relevant doctor windows are notified of the change. This is how it works:
 - Repository as a Subject: Repository inherits from Subject, which maintains a list of Observer* (doctor windows). The repository stores patients and doctors and can modify them.
 - Observers (Doctor Windows): Each doctor's window registers itself as an Observer to the Repository using addObserver(). These windows implement the update() method to refresh their patient lists when notified.
-- Automatic Updates via notify(): When a patient is added or updated (addPatient(), updatePatient()), notify() is called, which loops through all observers and calls their update() method. This ensures that when a patient’s doctor or specialization changes, all doctor windows automatically reflect the updated distribution.\
+- Automatic Updates via notify(): When a patient is added or updated (addPatient(), updatePatient()), notify() is called, which loops through all observers and calls their update() method. This ensures that when a patient’s doctor or specialization changes, all doctor windows automatically reflect the updated distribution.
 
 This setup keeps the UI in sync with the repository, ensuring real-time updates across multiple windows.
 
