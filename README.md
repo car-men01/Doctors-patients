@@ -2,7 +2,7 @@
 This C++ application opens a new window for each doctor and lists its patients. Each patient is allocated to a doctor according to the doctor's name and specialization, or if a patient is undiagnosed it will be listed in every doctor's window. The application allows the user to: filter diagnosed patients, add patients and update patients.
 
 ## GUI
-The GUI is made using the QT library in QT designer. On startup, the application will open a new window for every doctor.
+The GUI is made using the QT library in QT designer. On startup, the application will open a new window for every doctor.\
 ![image](https://github.com/user-attachments/assets/e94d857a-e5c5-4ea4-8f76-27164306fd6f)
 ![image](https://github.com/user-attachments/assets/4ca1a2f1-a928-46ee-af9e-b972aaaf930e)
 
